@@ -9,9 +9,12 @@ import Profile from './screens/Profile';
 
 const Tab = createMaterialBottomTabNavigator();
 
+
 export default function App() {
   return (
     <NavigationContainer>
+
+    {/*Tab Navigator*/}
       <Tab.Navigator>
         <Tab.Screen name="Home"
          component={Home}
